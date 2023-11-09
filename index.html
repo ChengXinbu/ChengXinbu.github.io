@@ -39,29 +39,63 @@
         <section id="cv">
             <h2>Education:</h2>
             <p>September 2021 - Present: Master's Student at Beijing Normal University, Majoring in Combinatorics, Advisor:
-Kaishun Wang.
-September 2016 - July 2020: Beijing University of Technology: Major in Applied Physics.
-September 2010 - June 2015: Beijing Bayi High School</p>
+Kaishun Wang.</p>
+ <p>September 2016 - July 2020: Beijing University of Technology: Major in Applied Physics.</p>
+<p>September 2010 - June 2015: Beijing Bayi High School</p>
         </section>
 
         <section id="research">
             <h2>Academic Performance:</h2>
-             <p>Graduate school GPA: 3.6 out of 4.0
-TOEFL Score: 101 (Reading: 29, Listening: 29, Speaking: 22, Writing: 21)</p>
+             <p>Graduate school GPA: 3.6 out of 4.0</p>
+<p>TOEFL Score: 101 (Reading: 29, Listening: 29, Speaking: 22, Writing: 21)</p>
             <p></p>
         </section>
 
 
-      <section id="research">
+      <section id="Preprints">
             <h2>Preprints:</h2>
-            <p>
-                [2207.07532] Local rainbow colorings for various graphs (arxiv.org)
-（Cited by Barnabás Janzer and Oliver Janzer)
-[2301.06485] Exact values and improved bounds on $k$-neighborly families of boxes (arxiv.org)
-（Submitted to European Journal of Combinatorics, currently under minor revision. Cited by Noga Alon and others）
-[2305.18218] Euclidean Gallai-Ramsey for various configurations (arxiv.org)</p>
+            <p> Local rainbow colorings for various graphs https://arxiv.org/abs/2207.07532 </p>
+<p>（Cited by Barnabás Janzer and Oliver Janzer)</p>
+<p> Exact values and improved bounds on $k$-neighborly families of boxes https://arxiv.org/abs/2301.06485 </p>
+<p>（Submitted to European Journal of Combinatorics, currently under minor revision. Cited by Noga Alon and others）</p>
+ <p> Euclidean Gallai-Ramsey for various configurations https://arxiv.org/abs/2305.18218 </p>
             <p></p>
         </section>
+
+<section id="RS">
+            <h2>Research Statement：</h2>
+      
+            <p>A brief introduction to my past work:
+1. Local rainbow colorings for various graphs https://arxiv.org/abs/2207.07532. 
+While reading a paper by Alon and Ben-Eliezer, I noticed in one of their theorem proofs, they intended to find a graph with two edges of the same color. However, they actually found four edges of the same color, meaning they "overdid it" in some sense, surely wasting some resources. I carefully examined their proof, looking at the proof of lemmas they used as well, and eventually identified the exact location of the waste. By optimizing this aspect, I was able to make a slight improvement to their results. My collaborator suggested that what I had found might not be an isolated case and encouraged me to take a closer look at other structures. Somewhat skeptical, I pondered in this direction for a while and discovered that Alon and Ben-Eliezer exhibited similar "resource wastage" in almost every lower bound proof, but more covertly (without obvious clues like four edges with same color), which led us to improve the lower bounds for many structures. Alon and Ben-Eliezer initially proposed two open problems they were most concerned with under this topic. We advanced one of them, but seven months after our paper was uploaded to arXiv, Oliver Janzer and Barnabás Janzer completely solved these two open problems. Oliver Janzer told my collaborator that it was after seeing our paper that they started paying attention to this problem.
+
+2. Exact values and improved bounds on k-neighborly families of boxes. 
+https://arxiv.org/abs/2301.06485. At the end of 2022, there was a very short paper that improved a result by Alon, Hao Huang, and Sudakov under certain parameters. This issue was a geometric problem that Alon had transformed into an equivalent graph theory problem, which thereafter people studied directly. However, at the end of 2022, these three authors transformed it into an equivalent coding problem and obtained a different form of result. Observing these proofs, I chose another path: switching back to the original geometric problem. I realized that if the methods of the three authors from the end of 2022 were translated back into the geometric perspective, it was like taking a step on the right path, but although there were many more steps to take, they did not move forward. Once I recognized this, I knew for sure that I could improve the result. Later, relying on the perspective of the original geometric problem, I came up with several new ideas, and together with my collaborators, we advanced these ideas.
+
+3. Euclidean Gallai-Ramsey for various configurations. 
+https://arxiv.org/abs/2305.18218. Traditional Euclidean Ramsey problems primarily use two types of methods: continuous and discrete. The continuous methods are mainly continuous operations on patterns, such as scaling, rotation, etc. The discrete methods mainly depict the properties of discrete sets of points through graph(hypergraph) theory. At the end of 2022, three authors proposed a new problem: the Euclidean Gallai-Ramsey problem. They merged two well-known topics and presented several results. I noticed that in their proofs, only discrete methods were used, and naturally thought that continuous methods should also be effective, so I applied the traditional methods from the Euclidean Ramsey problem here. These methods turned out to be surprisingly powerful for this new problem, easily improving almost all of their results. My collaborators and I continued to explore this new problem and, inspired by the mathematical taste of David Conlon, Jacob Fox, and others in their two papers, we provided several results not covered in the papers of the three authors from 2022. We also discovered a phenomenon commonly seen in the traditional Gallai-Ramsey problem within the new one: regardless of how many colors are used, there are always monochromatic structures or rainbow structures.
+
+Interests and Future Plans:
+1. Algebraic Constructions: There are often significant gaps between the upper and lower bounds of many extremal combinatorial problems. Constructing combinatorial structures that reach or asymptotically reach the exact answer is often very challenging. Algebraic constructions can sometimes bring surprises. The core principles of many effective algebraic constructions are polynomial equations over a finite field or a certain reasonable partition of a set followed by assigning different functions to different parts. I am curious if it is possible to use computer programs to enumerate potential possibilities, such as enumerating combinatorial structures generated by low-degree polynomial equations and common partition methods.
+
+2. Polynomial Methods: Polynomial methods occasionally appear in combinatorics, and once they do, they tend to be very powerful. Although different polynomial methods vary significantly, they all share a common feature: when translating or interpreting combinatorial language into polynomial language, the degree of the polynomial is very low. This is because high-degree polynomials often do not provide any new information, while low-degree polynomials are structures of very limited complexity, allowing people to extract effective combinatorial information from the "limited complexity" condition. I am very interested in which "features" will make a combinatorial problem translate or interpret in polynomial language with a relatively low degree. A clearer understanding of this issue would make it easier to judge whether a combinatorial problem is more likely to be solved by polynomial methods.
+
+3. Information Theory and Boolean Function Analysis: There are many advanced tools in information theory and analysis of Boolean functions that can sometimes provide more abstract and general explanations for some combinatorial phenomena and solve problems in combinatorics. Typical examples include the sunflower lemma, entropy methods, and hypercontractivity. I am very interested in this area of knowledge but currently have almost no understanding of it. I hope to improve my understanding of the combinatorial world and help me better solve combinatorial problems through learning about this field.
+
+4. Discrete Geometry: I have always believed that finite sets of points can play a role in the constructions of discrete geometry, just as in disproving Borsuk‘s conjecture. Many structures in combinatorics can be corresponded to some finite sets of points with certain properties, such as all subsets of [n], all k-element subsets, graphs, hypergraphs, codes, and so on. These combinatorial objects have been studied in depth, but the part applied to discrete geometry is very limited. I believe there is great potential in this area, and I hope to explore this direction.
+
+5. Structure and Pseudorandomness: I have heard several times about this idea: many combinatorial structures can be divided into structured parts and pseudorandom parts, such as the regularity lemma or decomposing a vector in a Hilbert space. I hope I can observe new combinatorial structures encountered with this concept in mind, and try to discover new phenomena about structure and pseudorandomness.
+
+6. Spectral Graph Theory: Ever since reading Hao Huang's paper on resolving the Sensitivity Conjecture, I have been eager to explore the following questions: Which combinatorial information can be detected by spectral information? Is the detection precise enough? In Hao Huang's paper, the "maximum degree" of a vertex was detected with complete precision by spectral information, which makes the problem I want to think about both natural and useful. However, these issues, which I consider important, seem rarely discussed in some textbooks, such as Algebraic Graph Theory by Chris Godsil and Gordon Royle, and Spectral and Algebraic Graph Theory by Daniel A. Spielman. I hope to gain a deeper understanding of this problem in my future studies.
+
+7. Algebraic Combinatorics and Additive Combinatorics: I often find these two areas intriguing, yet my studies have seldom touched upon them. In the direction of algebraic combinatorics, I had one memorable experience: after reading the survey "The Partition Complex: An Invitation to Combinatorial Commutative Algebra," I pointed out three oversights in the text in an email to the author, Karim Adiprasito, and received acknowledgment in his reply. As for additive combinatorics, I have read several fascinating theorems, such as the Relative Szemerédi Theorem and Freiman’s theorem, from Yufei Zhao’s book Graph Theory and Additive Combinatorics. However, due to limited time, I have not continued my studies in these directions. If given the opportunity in the future, I hope to delve into these fields through my learning and research.
+
+In any case, I am a newcomer, and my understanding of the combinatorial world is relatively limited. I will rely on the advice of my future advisor to ultimately determine my research plan.
+</p>
+        </section>
+
+
+
 
         
         <section id="contact">
